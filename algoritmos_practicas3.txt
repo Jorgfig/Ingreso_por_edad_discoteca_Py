@@ -1,0 +1,35 @@
+--------------------------------
+Probremática: 
+El usuario quiere saber si puede entrar a una discoteca según la edad del cliente.
+
+--------------------------------
+--------------------------------
+Algoritmo:
+1. Solcitar al usuario que ingrese la edad del cliente.
+2. Verificar si la edad ingresada cumple con el requisito para ingresar a la discoteca.
+3. Mostrar al usuario si su cliente puede o no ingresar a la discoteca.
+
+--------------------------------
+--------------------------------
+Pseudocódigo:
+
+Inicio
+# Paso 1: Solcitar al usuario que ingrese la edad del cliente.
+Mostrar mensaje: "Por favor, ingrese la edad del cliente: "
+Leer el dato ingresado y asignarlo a la variable edad.
+
+# Paso 2: Verificar si la edad ingresada cumple con el requisito para ingresar a la discoteca.
+Si edad >= 18 entonces
+    asignarle a la variable permitido, que sea Verdadero
+Sino
+    asignarle a la variable permitido, que sea Falso
+Fin Si
+
+# Paso 3: Mostrar al usuario si su cliente puede o no ingresar a la discoteca.
+
+Si permitido es verdadero 
+    Mostrar mensaje: "¡El cliente puede ingresar a la discoteca!"
+Sino 
+    Mostrar mensaje: "¡Lo sentimos muchos, no puedes ingresar a la discoteca por ser menor de edad!"
+Fin del Si
+Fin del programa
